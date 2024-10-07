@@ -5,7 +5,12 @@
 }
 
 nav {
-  background-color: limegreen;
+  background-image: url('https://aboardtheworld.com/wp-content/uploads/2022/11/Honolulu-Hawaii.jpg');
+  /* Pone una imagen de fondo */
+  background-repeat: no-repeat;
+  /* Hace que se repita o no la imagen en el fondo */
+  background-position: 50% 18%;
+  /* Posiciona la imagen dentro del espacio */
   padding: 15px;
   display: flex;
   flex-flow: row wrap;
@@ -17,47 +22,87 @@ nav {
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(253, 250, 250);
 }
 
 a:hover {
   scale: 1.1;
   transition: all 500ms;
 }
-#a1 {
-  background-color: limegreen;
+#nav2 {
+  background-color: rgb(243, 113, 7);
   text-decoration: none;
   color: black;
+  height: 20px;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  
 }
-#a1:hover {
+#a2:hover {
   scale: 1.1;
   transition: all 500ms;
 }
 div {
   text-align: center;
 }
+#parrafos{
+  text-align: center;
+  flex-flow: row;
+}
+#imgp{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+article{
+  width: 30%;
+}
+#parrafos2{
+  display: flex;
+}
+p{
+  font-size: large;
+}
 
 #id1 {
   display: flex;
   justify-content: center;
   width: 100%;
-
-  img {
-    width 500px;
-    height: 250px;
-    flex: 1 1 300px;
-
-  }
 }
+#id1> img {
+    width: 500px;
+    height: auto;
+    flex: 1 1 300px;
+  }
 
 #id2 {
   display: flex;
   justify-content: center;
   width: 100%;
-
-  img {
-    width 500px;
-    height: 250px;
+}
+#id2>img {
+    width: 500px;
+    height: auto;
     flex: 1 1 300px;
   }
+  #text{
+    text-align: center;
+  }
+
+#bandera{
+  display: flex;
+}
+#bandera>img{
+  width: 600px;
+}
+
+#idi{
+  height: 800px;
+  width: 1000px;
+  background-image: url('https://live.staticflickr.com/847/42696286665_975cce5bee_c.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 18%;
+  background-attachment: fixed;
+  text-align: center;
 }
